@@ -12,7 +12,7 @@ public class N1131 {
         valuePC = in.nextInt();
         patchCord = in.nextInt();
 
-        while(canCopy <= patchCord & computersWithPrograms < valuePC & computersWithPrograms < patchCord){
+        while(canCopy <= patchCord && computersWithPrograms < valuePC && computersWithPrograms < patchCord){
             computersWithPrograms += canCopy;
             hours++;
             canCopy = computersWithPrograms;

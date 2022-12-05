@@ -9,7 +9,7 @@ public class Example3 {
         System.out.println("Введите число которое делится на 4 и при этом меньше 10");
         int number = in.nextInt();
 
-        if((number%4)==0 & number<10){
+        if((number%4)==0 && number<10){
             System.out.println("Число удовлетворяет условию");
         } else {
             System.out.println("Число не удовлетворяет условию");

@@ -11,7 +11,7 @@ public class Example2 {
 
         //System.out.println("Деление на 5 - остаток "+ number%5 + "\nДеление на 7 - остаток "+ number%7);
 
-        if((number%5)==2 & (number%7)==1){
+        if((number%5)==2 && (number%7)==1){
             System.out.println("Число удовлетворяет условию");
         } else {
             System.out.println("Число не удовлетворяет условию");
