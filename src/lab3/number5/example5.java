@@ -10,7 +10,7 @@ public class example5 {
         System.out.println("Введите количество чисел");
         int value = in.nextInt();
         int[] arr = new int[value];
-        int count = 0, x=0;
+        int x=0;
         boolean found;
 
         for(int i = 0; i<arr.length; i++){
@@ -27,8 +27,8 @@ public class example5 {
         }
         System.out.println("Числа попадающие под критерий : " + Arrays.toString(arr));
         int sum = 0;
-        for(int i = 0; i<arr.length; i++){
-            sum+=arr[i];
+        for (int j : arr) {
+            sum += j;
         }
         System.out.println("Сумма всех чисел = " + sum);
     }
